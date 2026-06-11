@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Luxury Dining | Premium Food Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for Premium Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="brand-logo">
+                <h2>GOLDEN<span>CRUST</span></h2>
+            </div>
+            
+            <nav>
+                <ul class="list" id="nav-links">
+                    <li><a href="#Home" class="active">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Menu">Our Menu</a></li>
+                    <li><a href="#Gallery">Gallery</a></li>
+                    <li><a href="#Review">Reviews</a></li>
+                    <li><a href="#Order">Book & Order</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-right">
+                <!-- Clean Minimalist Premium Cart Only -->
+                <div class="nav-icon-premium">
+                    <i class="fa-solid fa-cart-shopping"><span id="cart-count">0</span></i>
+                </div>
+                <!-- Mobile Menu Button -->
+                <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="Home" class="home-section">
+        <div class="main-container">
+            <div class="main-text">
+                <span class="sub-title">WELCOME TO GOLDEN CRUST</span>
+                <h1>Crafting Premium <span>Culinary</span> Experiences</h1>
+                <p class="one">Indulge in a sophisticated blend of taste, ambiance, and master craftsmanship. Every dish is artfully created using handpicked, globally sourced premium ingredients.</p>
+                <div class="main-btn-container">
+                    <a href="#Menu" class="btn-secondary">Explore Menu</a>
+                    <a href="#Order" class="btn-primary">Reserve Table <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+            <div class="main-image">
+                <div class="image-wrapper">
+                    <img src="image1.jpg" alt="Premium Culinary Dish">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="About">
+        <div class="about-main">
+            <div class="about-image">
+                <img src="about.image.jpg" alt="Our Premium Kitchen">
+            </div>
+            <div class="about-text">
+                <span class="sub-title">OUR STORY</span>
+                <h1>An Absolute <span>Legacy</span> Of Taste</h1>
+                <h3>Where Passion Meets Perfection</h3>
+                <p>Founded on the principles of traditional elegance and contemporary finesse, our chefs bring decades of culinary mastery to your plate. We do not just serve food; we orchestrate an unforgettable sensory journey.</p>
+                <a href="#Order" class="btn-primary">Our Heritage</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="Menu">
+        <span class="sub-title center">EXQUISITE SELECTION</span>
+        <h1 class="section-title">Our Signature <span>Menu</span></h1>
+        
+        <div class="menu-box">
+            <!-- Card 1 -->
+            <div class="menu-card">
+                <div class="menu-image">
+                    <img src="menu.image.avif" alt="Truffle Burger">
+                    <button class="small-card-btn" aria-label="Add to Wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+                <div class="menu-inf">
+                    <h2>Imperial Truffle Burger</h2>
+                    <p>Prime aged beef, black truffle aioli, aged cheddar on a culinary brioche bun.</p>
+                    <h3 class="price">$28.00</h3>
+                    <div class="menu-icon">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <button class="menu-btn order-now-btn">Order Premium</button>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="menu-card">
+                <div class="menu-image">
+                    <img src="fast food.jpg" alt="Signature Platter">
+                    <button class="small-card-btn"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="menu-inf">
+                    <h2>Signature House Platter</h2>
+                    <p>An elite curation of seasonal delicacies roasted over open hickory fire wood.</p>
+                    <h3 class="price">$45.00</h3>
+                    <div class="menu-icon">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <button class="menu-btn order-now-btn">Order Premium</button>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="menu-card">
+                <div class="menu-image">
+                    <img src="breakfasst.jpg" alt="Royal Desserts">
+                    <button class="small-card-btn"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="menu-inf">
+                    <h2>Royal Dessert Symphony</h2>
+                    <p>Gold leaf infused confectionery paired with authentic Madagascan vanilla extract.</p>
+                    <h3 class="price">$22.00</h3>
+                    <div class="menu-icon">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button class="menu-btn order-now-btn">Order Premium</button>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="menu-card">
+                <div class="menu-image">
+                    <img src="chmin.webp" alt="Wok Noodles">
+                    <button class="small-card-btn"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="menu-inf">
+                    <h2>Saffron Infused Noodles</h2>
+                    <p>Hand-pulled artisan glass noodles tossed with rare mushrooms and rich spices.</p>
+                    <h3 class="price">$32.00</h3>
+                    <div class="menu-icon">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <button class="menu-btn order-now-btn">Order Premium</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="Gallery">
+        <span class="sub-title center">VISUAL SENSATION</span>
+        <h1 class="section-title">The Masterpiece <span>Gallery</span></h1>
+        <div class="gallery-image-box">
+            <div class="gallery-image">
+                <img src="gallery1.jpg" alt="Culinary Art 1">
+                <div class="gallery-overlay">
+                    <h3>Gastronomy Art</h3>
+                    <p>Where presentation meets pure indulgence.</p>
+                </div>
+            </div>
+            <div class="gallery-image">
+                <img src="gallery2.jpg" alt="Culinary Art 2">
+                <div class="gallery-overlay">
+                    <h3>The Ambiance</h3>
+                    <p>A sophisticated luxury atmosphere.</p>
+                </div>
+            </div>
+            <div class="gallery-image">
+                <img src="gallery3.jpg" alt="Culinary Art 3">
+                <div class="gallery-overlay">
+                    <h3>Fine Wine Pairings</h3>
+                    <p>Handpicked rare vintage assets.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Review Section -->
+    <section class="review" id="Review">
+        <span class="sub-title center">CRITICS & CONNOISSEURS</span>
+        <h1 class="section-title">Elite Client <span>Reviews</span></h1>
+        <div class="review-box">
+            <div class="review-card">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <div class="review-profile">
+                    <img src="g1.jpg" alt="Lord Edward">
+                </div>
+                <div class="review-text">
+                    <h2>Lord Edward</h2>
+                    <div class="review-icon">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"An absolute masterpiece of tastes. The truffle burger variant took my fine dining experiences to a whole new level."</p>
+                </div>
+            </div>
+            <div class="review-card">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <div class="review-profile">
+                    <img src="g2.jpg" alt="Lady Charlotte">
+                </div>
+                <div class="review-text">
+                    <h2>Lady Charlotte</h2>
+                    <div class="review-icon">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"The aesthetic ambiance combined with royal grade stellar customer services makes it our permanent family venue."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section class="order" id="Order">
+        <span class="sub-title center">RESERVATIONS</span>
+        <h1 class="section-title">Secure A <span>Table</span></h1>
+        <div class="order-main">
+            <div class="order-image">
+                <img src="order1.jpg" alt="Fine Dining Experience">
+            </div>
+            <form id="orderForm">
+                <div class="input-grid">
+                    <div class="input-box">
+                        <label>Full Name</label>
+                        <input type="text" id="orderName" placeholder="e.g. Alexander Pierce" required>
+                    </div>
+                    <div class="input-box">
+                        <label>Private Email</label>
+                        <input type="email" id="orderEmail" placeholder="name@luxury.com" required>
+                    </div>
+                    <div class="input-box">
+                        <label>Contact Number</label>
+                        <input type="tel" id="orderNumber" placeholder="+92 3XX XXXXXXX" required>
+                    </div>
+                    <div class="input-box">
+                        <label>Guests Count</label>
+                        <input type="number" id="orderQuantity" min="1" value="1" required>
+                    </div>
+                    <div class="input-box">
+                        <label>Preferred Course Selection</label>
+                        <input type="text" id="orderFood" placeholder="Select Dish / Course Menu" required>
+                    </div>
+                    <div class="input-box">
+                        <label>Special Instructions</label>
+                        <input type="text" id="orderAddress" placeholder="Allergies, seating preferences etc." required>
+                    </div>
+                </div>
+                <button type="submit" class="order-btn">Confirm Royal Booking</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-main">
+            <div class="footer-tag">
+                <h2>GOLDEN<span>CRUST</span></h2>
+                <p class="brand-desc">A premium culinary journey handcrafted for elite tastes.</p>
+            </div>
+            <div class="footer-tag">
+                <h3>Global Venues</h3>
+                <p>Manhattan, NY</p><p>Downtown Dubai</p><p>Gulberg, Lahore</p>
+            </div>
+            <div class="footer-tag">
+                <h3>Quick Nav</h3>
+                <p><a href="#Home">Home</a></p>
+                <p><a href="#About">Our Story</a></p>
+                <p><a href="#Menu">The Menu</a></p>
+            </div>
+            <div class="footer-tag">
+                <h3>Inquiries</h3>
+                <p>+92 3424760460</p>
+                <p>concierge@goldencrust.com</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="end">&copy; 2026 Golden Crust Luxury Dining. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
